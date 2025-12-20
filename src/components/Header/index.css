@@ -111,8 +111,11 @@
 }
 
 .nav-link {
+<<<<<<< HEAD
   display: flex;
   align-items: center;
+=======
+>>>>>>> 1712507c74e2dc4d4c6ac9934c231e7bd015416b
   text-decoration: none;
   color: #475569;
 }
@@ -159,6 +162,7 @@
 .nav-bar-img {
   width: 24px;
 }
+<<<<<<< HEAD
 
 .cart-count-badge {
   background-color: #bfdbfe;
@@ -179,3 +183,5 @@
     background-color: #e6f6ff;
   }
 }
+=======
+>>>>>>> 1712507c74e2dc4d4c6ac9934c231e7bd015416b

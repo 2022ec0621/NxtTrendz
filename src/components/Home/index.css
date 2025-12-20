@@ -14,7 +14,11 @@
   .home-container {
     flex-direction: row;
     justify-content: space-between;
+<<<<<<< HEAD
     padding-top: 96px;
+=======
+    padding-top: 50px;
+>>>>>>> 1712507c74e2dc4d4c6ac9934c231e7bd015416b
   }
 }
 
@@ -53,11 +57,19 @@
 }
 
 .home-heading {
+<<<<<<< HEAD
   color: #1e293b;
   font-family: 'Roboto';
   font-weight: bold;
   font-size: 30px;
   line-height: 1.2;
+=======
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-top: 0px;
+  font-size: 36px;
+  color: #1e293b;
+>>>>>>> 1712507c74e2dc4d4c6ac9934c231e7bd015416b
   text-align: center;
 }
 
@@ -87,6 +99,10 @@
 }
 
 .shop-now-button {
+<<<<<<< HEAD
+=======
+  width: 60%;
+>>>>>>> 1712507c74e2dc4d4c6ac9934c231e7bd015416b
   font-size: 14px;
   font-weight: 400;
   font-family: 'Roboto';

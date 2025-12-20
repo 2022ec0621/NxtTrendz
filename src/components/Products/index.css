@@ -1,7 +1,20 @@
+<<<<<<< HEAD
 .product-sections {
   display: flex;
   flex-direction: column;
   margin: auto;
   width: 90%;
   max-width: 1110px;
+=======
+.products-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.products-img {
+  width: 150px;
+>>>>>>> 1712507c74e2dc4d4c6ac9934c231e7bd015416b
 }

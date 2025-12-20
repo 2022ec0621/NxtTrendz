@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 import {Link} from 'react-router-dom'
+=======
+>>>>>>> 1712507c74e2dc4d4c6ac9934c231e7bd015416b
 import Header from '../Header'
 
 import './index.css'
@@ -14,6 +17,10 @@ const Home = () => (
           alt="clothes that get you noticed"
           className="home-mobile-img"
         />
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1712507c74e2dc4d4c6ac9934c231e7bd015416b
         <p className="home-description">
           Fashion is part of the daily air and it does not quite help that it
           changes all the time. Clothes have always been a marker of the era and
@@ -21,11 +28,17 @@ const Home = () => (
           that way you are. So, celebrate the seasons new and exciting fashion
           in your own way.
         </p>
+<<<<<<< HEAD
         <Link to="/products">
           <button type="button" className="shop-now-button">
             Shop Now
           </button>
         </Link>
+=======
+        <button type="button" className="shop-now-button">
+          Shop Now
+        </button>
+>>>>>>> 1712507c74e2dc4d4c6ac9934c231e7bd015416b
       </div>
       <img
         src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-home-img.png"

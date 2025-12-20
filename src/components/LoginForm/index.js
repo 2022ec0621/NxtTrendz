@@ -1,6 +1,11 @@
 import {Component} from 'react'
+<<<<<<< HEAD
 import Cookies from 'js-cookie'
 import {Redirect} from 'react-router-dom'
+=======
+import {Redirect} from 'react-router-dom'
+import Cookies from 'js-cookie'
+>>>>>>> 1712507c74e2dc4d4c6ac9934c231e7bd015416b
 
 import './index.css'
 
@@ -44,6 +49,10 @@ class LoginForm extends Component {
     }
     const response = await fetch(url, options)
     const data = await response.json()
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1712507c74e2dc4d4c6ac9934c231e7bd015416b
     if (response.ok === true) {
       this.onSubmitSuccess(data.jwt_token)
     } else {

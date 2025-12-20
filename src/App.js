@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 import {Component} from 'react'
 import {Route, Switch, Redirect} from 'react-router-dom'
+=======
+import {Switch, Route} from 'react-router-dom'
+>>>>>>> 1712507c74e2dc4d4c6ac9934c231e7bd015416b
 
 import LoginForm from './components/LoginForm'
 import Home from './components/Home'
 import Products from './components/Products'
+<<<<<<< HEAD
 import ProductItemDetails from './components/ProductItemDetails'
 import Cart from './components/Cart'
 import NotFound from './components/NotFound'
@@ -116,5 +121,22 @@ class App extends Component {
     )
   }
 }
+=======
+import Cart from './components/Cart'
+import NotFound from './components/NotFound'
+import ProtectedRoute from './components/ProtectedRoute'
+
+import './App.css'
+
+const App = () => (
+  <Switch>
+    <Route exact path="/login" component={LoginForm} />
+    <ProtectedRoute exact path="/" component={Home} />
+    <ProtectedRoute exact path="/products" component={Products} />
+    <ProtectedRoute exact path="/cart" component={Cart} />
+    <Route component={NotFound} />
+  </Switch>
+)
+>>>>>>> 1712507c74e2dc4d4c6ac9934c231e7bd015416b
 
 export default App

@@ -1,7 +1,12 @@
 import {Link, withRouter} from 'react-router-dom'
+<<<<<<< HEAD
 import Cookies from 'js-cookie'
 
 import CartContext from '../../context/CartContext'
+=======
+
+import Cookies from 'js-cookie'
+>>>>>>> 1712507c74e2dc4d4c6ac9934c231e7bd015416b
 
 import './index.css'
 
@@ -13,6 +18,7 @@ const Header = props => {
     history.replace('/login')
   }
 
+<<<<<<< HEAD
   const renderCartItemsCount = () => (
     <CartContext.Consumer>
       {value => {
@@ -30,10 +36,13 @@ const Header = props => {
     </CartContext.Consumer>
   )
 
+=======
+>>>>>>> 1712507c74e2dc4d4c6ac9934c231e7bd015416b
   return (
     <nav className="nav-header">
       <div className="nav-content">
         <div className="nav-bar-mobile-logo-container">
+<<<<<<< HEAD
           <Link to="/">
             <img
               className="website-logo"
@@ -41,6 +50,13 @@ const Header = props => {
               alt="website logo"
             />
           </Link>
+=======
+          <img
+            className="website-logo"
+            src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
+            alt="website logo"
+          />
+>>>>>>> 1712507c74e2dc4d4c6ac9934c231e7bd015416b
 
           <button
             type="button"
@@ -56,6 +72,7 @@ const Header = props => {
         </div>
 
         <div className="nav-bar-large-container">
+<<<<<<< HEAD
           <Link to="/">
             <img
               className="website-logo"
@@ -63,6 +80,13 @@ const Header = props => {
               alt="website logo"
             />
           </Link>
+=======
+          <img
+            className="website-logo"
+            src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
+            alt="website logo"
+          />
+>>>>>>> 1712507c74e2dc4d4c6ac9934c231e7bd015416b
           <ul className="nav-menu">
             <li className="nav-menu-item">
               <Link to="/" className="nav-link">
@@ -79,7 +103,10 @@ const Header = props => {
             <li className="nav-menu-item">
               <Link to="/cart" className="nav-link">
                 Cart
+<<<<<<< HEAD
                 {renderCartItemsCount()}
+=======
+>>>>>>> 1712507c74e2dc4d4c6ac9934c231e7bd015416b
               </Link>
             </li>
           </ul>
@@ -120,7 +147,10 @@ const Header = props => {
                 alt="nav cart"
                 className="nav-bar-img"
               />
+<<<<<<< HEAD
               {renderCartItemsCount()}
+=======
+>>>>>>> 1712507c74e2dc4d4c6ac9934c231e7bd015416b
             </Link>
           </li>
         </ul>

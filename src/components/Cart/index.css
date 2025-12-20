@@ -1,5 +1,6 @@
 .cart-container {
   display: flex;
+<<<<<<< HEAD
   justify-content: center;
   min-height: 75vh;
 }
@@ -55,4 +56,14 @@
   .remove-all-btn {
     font-size: 16px;
   }
+=======
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.cart-img {
+  width: 150px;
+>>>>>>> 1712507c74e2dc4d4c6ac9934c231e7bd015416b
 }
